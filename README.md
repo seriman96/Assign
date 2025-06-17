@@ -1,4 +1,4 @@
-# Assign1
+# Assign 1
 
 # Multi-Armed Bandit Algorithms: Stationary and Non-Stationary Environments
 
