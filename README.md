@@ -144,3 +144,10 @@ Edit
 pip install numpy matplotlib pandas seaborn
 📌 Conclusion
 This project demonstrates how different RL strategies affect convergence and policy quality even in simple environments. It’s a practical exercise in applying foundational RL concepts using tabular methods.
+
+
+Reproducibility
+Important:
+
+The same 10 random seeds were used across all simulations for generating drift noise and permutations.
+This ensures that differences in results are due to algorithmic behavior, not to varying noise.
