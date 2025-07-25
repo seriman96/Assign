@@ -47,6 +47,8 @@ pip install -r requirements.txt
 # Run experiments
 python RL_Assign1.ipynb
 
+
+
 # Assign 2
 
 ## Reinforcement Learning: Gridworld Assignment
@@ -61,6 +63,7 @@ Experiments are conducted in two different settings:
 
 Infinite-horizon (non-episodic) gridworld
 Episodic gridworld with terminal states
+
 ## 🗺️ Environment Details
 
 Grid Size: 5x5 (25 states)
@@ -73,6 +76,7 @@ Step Reward:
 Valid move: 0
 Invalid (off-grid) move: -0.5
 Discount Factor (γ): 0.95
+
 ## ⚙️ Algorithms Implemented
 
 Part 1 – Dynamic Programming
@@ -83,10 +87,12 @@ Policy Optimization:
 Brute-force Policy Improvement
 Policy Iteration
 Value Iteration
+
 Part 2 – Monte Carlo Methods (Episodic Environment)
 MC Control with Exploring Starts
 MC Control with ε-Soft Policy
 Off-Policy MC Control using Importance Sampling
+
 ## 📊 Key Observations
 
 Blue state always has the highest value across all methods due to its high immediate reward.
