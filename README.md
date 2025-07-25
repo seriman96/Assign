@@ -99,9 +99,11 @@ Blue state always has the highest value across all methods due to its high immed
 Value Iteration converged faster than Policy Iteration.
 Among MC methods, ε-soft policy gave the best performance (max V ≈ 4.6).
 Off-policy control worked well but was more sensitive to variance in importance sampling.
+
 ## 📁 Files
 
 Assign2_RL.ipynb – All code and visualizations are included in this Jupyter notebook.
+
 ## ▶️ How to Run
 
 Clone this repo or open the notebook via GitHub.
@@ -112,6 +114,7 @@ matplotlib
 pandas
 seaborn
 pip install numpy matplotlib pandas seaborn
+
 ## 📌 Conclusion
 
 This project demonstrates how different RL strategies affect convergence and policy quality even in simple environments. It’s a practical exercise in applying foundational RL concepts using tabular methods.
