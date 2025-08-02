@@ -7,8 +7,8 @@ This repository contains the implementation and analysis for Assignment 3 in the
 ## 📁 Contents
 
 - `RL_A3.ipynb` — Jupyter notebook with full implementation and plots
-- `report.md` / `report.pdf` — Final report summarizing results and insights
-- `README.md` — This file
+- `report_A3.pdf` — Final report summarizing results and insights
+- `README_A3.md` — This file
 
 ---
 
@@ -34,7 +34,7 @@ Both use:
 - ε-greedy action selection
 - Learning rate (α): 0.1
 - Discount factor (γ): 0.99
-- Exploration rate (ε): 0.1
+- Exploration rate (ε): 0.01
 - 500 training episodes
 
 ---
